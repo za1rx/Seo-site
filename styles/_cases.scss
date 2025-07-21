@@ -1,0 +1,82 @@
+@import "vars";
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  display: none;
+}
+
+.swiper-button-prev img,
+.swiper-button-next img {
+  width: 10px;
+}
+
+.swiper-button-next img {
+  transform: rotate(180deg);
+}
+
+.cases .swiper {
+  position: relative;
+}
+
+.cases .swiper-wrapper {
+  width: 10%;
+}
+
+.cases {
+  position: relative;
+}
+
+.cases .swiper-slide {
+  background-image: url("../assets/images/cases-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.4rem;
+
+  h3 {
+    font-size: 24px;
+    color: #fff;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  img,
+  span {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+  }
+
+  span {
+    padding: 0.8rem 1.2rem;
+  }
+}
+
+.cases .swiper-button-prev,
+.cases .swiper-button-next {
+  position: absolute;
+  top: 60%;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid $dark-blue-background;
+}
+
+.cases .swiper-button-prev {
+  left: 2%;
+}
+
+.cases .swiper-button-next {
+  right: 2%;
+}
+
+.cases__title {
+  margin-bottom: 3rem;
+}

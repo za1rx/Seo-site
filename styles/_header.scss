@@ -1,0 +1,46 @@
+@import "vars";
+
+header {
+  background-color: $red-background;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 7rem;
+  align-items: center;
+
+  .header__nav ul {
+    display: flex;
+    gap: 5rem;
+
+    a {
+      color: #fff;
+      font-weight: 400;
+    }
+  }
+
+  .header__links {
+    display: flex;
+    gap: 2rem;
+
+    ul {
+      display: flex;
+      gap: 1rem;
+      padding-right: 2rem;
+      position: relative;
+    }
+
+    ul:after{
+        content: '';
+        display: block;
+        background-color: #fff;
+        height: 240%;
+        width: 1px;
+        position: absolute;
+        top: -70%;
+        right: 0;
+    }
+  }
+}
+
+.header__phone{
+    color: #fff;
+}

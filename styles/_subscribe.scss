@@ -1,0 +1,73 @@
+@import url('_vars.scss');
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  background-color: #1e1f1c;
+  color: #fff;
+}
+
+.subscribe__images {
+  margin-bottom: -45px;
+  position: relative;
+}
+
+.subscribe__bg-image {
+  position: absolute;
+  bottom: 0;
+  left: 12%;
+}
+
+.subscribe__icon {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 60px;
+  position: absolute;
+}
+
+.subscribe__icon:nth-child(3) {
+    top: 20%;
+    right: 35%;
+}
+
+.subscribe__icon:nth-child(4) {
+    top: 40%;
+    left: 35%;
+}
+
+.subscribe__icon:nth-child(5) {
+    bottom: 25%;
+    right: 25%;
+}
+
+.subscribe__list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    li{
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+.subscribe__content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.subscribe__title{
+    margin-bottom: 0 !important;
+}
+
+.subscribe__link{
+    background-color: #fff;
+    color: $dark-blue-background;
+    align-self: start;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}

@@ -1,0 +1,23 @@
+@import 'vars';
+
+.trust__list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.trust__item{
+    width: 20%;
+    box-shadow: 1px 1px 6px #3333331e;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trust__title{
+    text-align: center;
+}
+

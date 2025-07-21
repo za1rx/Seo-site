@@ -1,0 +1,23 @@
+.niches__title{
+    text-align: center;
+}
+
+.niches__list{
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    gap: 2rem;
+    width: 80%;
+}
+
+.niches__item{
+    display: flex;
+    gap: .6rem;
+    align-items: center;
+}
+
+.niches{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
