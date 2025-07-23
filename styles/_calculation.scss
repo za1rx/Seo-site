@@ -1,0 +1,62 @@
+@import "vars";
+
+.calculation {
+  padding: 1vh 7vw;
+  padding-right: 0.5rem !important;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e1f1c;
+  color: #fff;
+  align-items: center;
+}
+
+.calculation__content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-right: 10vw;
+}
+
+.calculation__subtitle{
+    font-size: 1.2rem;
+}
+
+.calculation__image {
+  width: 40%;
+  border-radius: 2rem;
+}
+
+.calculation__form input::placeholder,
+.calculation__form input {
+  color: $red-background;
+}
+
+.calculation__form {
+  input {
+    border-bottom: 2px solid $red-background;
+    border-radius: 0;
+    background-color: transparent;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  button {
+    background-color: #fff;
+    color: $dark-blue-background;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+    width: 60%;
+    padding-left: 2rem;
+  }
+}
+
+.calculation__title.title{
+    margin-bottom: 0;
+}
+
+.form__inputs{
+    gap: 2rem;
+}

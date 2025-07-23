@@ -1,4 +1,4 @@
-const feedbackSwiper = new Swiper('.feedback .swiper', {
+const feedbackSwiper = new Swiper('.feedback .feedback__top .swiper', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
